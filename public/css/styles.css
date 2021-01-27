@@ -1,0 +1,89 @@
+body {
+  background-color: #eeeeee;
+}
+h1 {
+  max-width: 80%;
+  padding-bottom: 1rem;
+}
+p {
+  font-size: larger;
+  padding-left: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #eeeeee;
+}
+.navbar-brand {
+  margin: 0;
+}
+.navbar-brand a {
+  color: inherit;
+  font-size: inherit;
+}
+.navbar-brand a:hover {
+  color: #686868;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+/* Main */
+.container-fluid {
+  padding: 35px 10% 70px;
+}
+.home-title {
+  margin-bottom: 2.5rem;
+  width: auto;
+}
+.home-post-outer {
+  padding: 2% 5%;
+}
+
+.home-post {
+  padding: 0;
+  margin-top: 1rem;
+  border-bottom: 1px solid #a7a7a7;
+}
+.home-post h2 a {
+  color: inherit;
+}
+.home-post h2 a:hover {
+  color: #4f4f50;
+}
+
+form {
+  max-width: 90%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+/* Footer */
+.footer-padding {
+  padding-top: 80px;
+  height: max-content;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  background-color: #1abc9c;
+}
+.footer a {
+  font-size: 14px;
+  color: #eeeeee;
+  margin: 0;
+}
+.footer a:hover {
+  color: #d1d4d4;
+  font-weight: bold;
+}
